@@ -45,7 +45,7 @@ tiktoken = "^0.3.3"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.1"
-black = {version = "^21.10b0", allow-prereleases = true}
+black = {version = "^24.3", allow-prereleases = true}
 darglint = "^1.8.1"
 isort = {extras = ["colors"], version = "^5.10.1"}
 mypy = "^0.910"
@@ -63,12 +63,12 @@ pytest-cov = "^4.0.0"
 httpx = "^0.23.0"
 pytest-asyncio = "^0.21.0"
 requests-mock = "^1.10.0"
-torch = "2.0.0"
+torch = "2.5.1"
 sentence-transformers = "^2.2.2"
 
 # TODO: following integrations might be moved outside this repo - loose coupling
 firebase-admin = "^6.1.0"
-sentry-sdk = {extras = ["fastapi"], version = "^1.21.1"}
+sentry-sdk = {extras = ["fastapi"], version = "^1.45.1"}
 supabase = "^1.0.3"
 psycopg = {extras = ["binary", "pool"], version = "^3.1.8"}
 pgvector = "^0.1.6"
